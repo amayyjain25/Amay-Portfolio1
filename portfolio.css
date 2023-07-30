@@ -19,6 +19,7 @@ nav{
     height: 85px;
     background-color: rgb(9, 49, 87);
     /*overflow: hidden;*/
+    width: 100%;
     overflow: none;
 }
 nav ul{
@@ -66,7 +67,7 @@ button:focus {
     margin: 120px 0;
 }
 .firstSection >div{
-    width: 50%;
+    width: 30%;
 
 }
 
@@ -139,20 +140,26 @@ button:focus {
     left: -12px;
 
 }
+
+
+    
+.vertical1{
+    display: none;
+}
 .vertical-title{
     position: relative;
     /*justify-content: center;*/
     top: 56px;
     width: 270px;
     /*color: gray;*/
-    font-size: x-large;
+    font-size: 25px;
 }
 .Vertical-desc  {  
     position: relative;
     top: 70px;
     color: gray;
-    width: 270px;
-    font-size: 13px;
+    width: 260px;
+    font-size: 11px;
     justify-content: center;
 
 }
@@ -225,6 +232,7 @@ footer{
 .check-btn{
     display: none;
 }
+
 /*media query*/
  /* @media screen and (max-width: 991px) {
     .right {
@@ -257,7 +265,7 @@ footer{
         color: white;
         font-size: 1.5em;
     }
-}*/
+}
   
 @media screen and (max-width: 820x) {
     body{
@@ -319,16 +327,31 @@ footer{
     }
 }
     
-    
+ */   
 
-   /* @media screen and (max-width: 1240px) {
+ @media screen and (max-width: 890px) {
         .body{
             background: red;
         }
         
-        .footer{
-            display: none;
+        .left{
+            font-size: 1.5rem;
         }
+        .left1{
+            font-size: 1.2rem;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            align-items: center;
+        }
+        .SecondSection{
+            height: 320px;
+        }
+
         .SecondSection .line{
             flex-direction: column;
         }
@@ -336,13 +359,31 @@ footer{
             height: unset;
             
         }
+        .firstSection{
+            flex-direction: column-reverse;
+            height: max-content;
+        }
+        .right1{
+            font-size: 0.5rem;
+        }
 
         .vertical-title{
-            left : 50px
-            
+            left : 30px
+           
+        }
+        .image-top{
+            display: inline;
+        }
+        #image1{
+            display: none;
+        }
+        
+        .vertical-title {
+            font-size: 1.4rem;
         }
         .Vertical-desc{
-            left: 50px;
+            left: 30px;
+            font-size: 10px;
         }
         .line{
             display: flex;
@@ -350,7 +391,10 @@ footer{
         footer{
             display: none;
         }
+        .right{
+            display: none;
+        }
         
         }
-*/
+
     
