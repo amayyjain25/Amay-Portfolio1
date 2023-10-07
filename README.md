@@ -9,3 +9,4 @@ Table of Contents Features Installation Usage Technologies Used Contributing Lic
 About Me: A dedicated section allows visitors to learn more about me, my background, skills, and interests. It provides a personal touch and helps potential collaborators or employers get to know me better.
 
 Contact Information: The website provides various ways for visitors to get in touch with me. This includes links to my social media profiles, an email address, and possibly a contact form for direct communication.
+UPLOADED SITE -https://amayyjain25.github.io/Amay-Portfolio1/
